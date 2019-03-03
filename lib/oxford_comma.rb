@@ -4,9 +4,10 @@ if array.length == 0
   elsif array.length == 1 
   array.join("and")
 else array.lengh >  2 
-  inal = array.last	
-    array.pop	  array[-1].insert(0,"and ")
-    string = array.join(", ")	  ##binding.pry
+  final = array.last	
+    array.pop	  a
+    
+    string = array.join(", ")	  
     string << ", and #{final}"
   
 end
