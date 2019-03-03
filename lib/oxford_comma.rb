@@ -3,6 +3,6 @@ if array.length == 0
   arry.join
   elsif array.length == 1 
   array.join("and")
-elsif 
+else array.lengh 
   
 end
